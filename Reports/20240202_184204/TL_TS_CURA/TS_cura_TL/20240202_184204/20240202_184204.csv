@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_cura_TL,Firefox 122.0,,,02-02-2024 18:42:25,02-02-2024 18:43:55,1m - 30.534s,PASSED
+,,,,,,,
+Test Cases/TL_TC_CURA/TL_CURA_file,Firefox 122.0,,,02-02-2024 18:42:54,02-02-2024 18:43:55,1m - 0.676s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 122.0,,,02-02-2024 18:42:55,02-02-2024 18:42:59,4.601s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/TL_CURA_OBJ/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107""), ""Hongkong CURA Healthcare Center"", true)",Firefox 122.0,,,02-02-2024 18:43:00,02-02-2024 18:43:02,1.956s,PASSED
+"ky_droplist.dropdownvalue.CheckDropDownListElementExist(findTestObject(""TL_CURA_OBJ/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107""), ""Hongkong CURA Healthcare Center"")",Firefox 122.0,,,02-02-2024 18:43:02,02-02-2024 18:43:03,1.222s,PASSED
+"click(findTestObject(""Object Repository/TL_CURA_OBJ/Page_CURA Healthcare Service/input_hospital_readmission""))",Firefox 122.0,,,02-02-2024 18:43:03,02-02-2024 18:43:04,0.681s,PASSED
+"click(findTestObject(""Object Repository/TL_CURA_OBJ/Page_CURA Healthcare Service/label_Medicaid""))",Firefox 122.0,,,02-02-2024 18:43:04,02-02-2024 18:43:04,0.700s,PASSED
+"click(findTestObject(""Object Repository/TL_CURA_OBJ/Page_CURA Healthcare Service/input_visit_date""))",Firefox 122.0,,,02-02-2024 18:43:04,02-02-2024 18:43:05,0.700s,PASSED
+"click(findTestObject(""Object Repository/TL_CURA_OBJ/Page_CURA Healthcare Service/td_30""))",Firefox 122.0,,,02-02-2024 18:43:05,02-02-2024 18:43:06,0.782s,PASSED
+"setText(findTestObject(""Object Repository/TL_CURA_OBJ/Page_CURA Healthcare Service/textarea_comment""), ""fever"")",Firefox 122.0,,,02-02-2024 18:43:06,02-02-2024 18:43:07,0.772s,PASSED
+"click(findTestObject(""Object Repository/TL_CURA_OBJ/Page_CURA Healthcare Service/button_Book Appointment""))",Firefox 122.0,,,02-02-2024 18:43:07,02-02-2024 18:43:08,1.771s,PASSED
+"click(findTestObject(""Object Repository/TL_CURA_OBJ/Page_CURA Healthcare Service/amenu-toggle""))",Firefox 122.0,,,02-02-2024 18:43:08,02-02-2024 18:43:09,0.728s,PASSED
+"click(findTestObject(""Object Repository/TL_CURA_OBJ/Page_CURA Healthcare Service/a_History""))",Firefox 122.0,,,02-02-2024 18:43:09,02-02-2024 18:43:10,1.064s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 122.0,,,02-02-2024 18:43:10,02-02-2024 18:43:55,44.968s,ERROR

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CURA Heading validation</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e25c0763-73f2-45a1-94e3-f6c2305c7a28</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b19c424d-0bc2-4a8f-8796-e7c79d4efc72</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'https://katalon-demo-cura.herokuapp.com/'</defaultValue>
+      <description></description>
+      <id>b19c424d-0bc2-4a8f-8796-e7c79d4efc72</id>
+      <masked>false</masked>
+      <name>link</name>
+   </variable>
+</TestCaseEntity>

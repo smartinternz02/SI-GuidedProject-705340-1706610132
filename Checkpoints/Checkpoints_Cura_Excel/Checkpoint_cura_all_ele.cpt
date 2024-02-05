@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkpoint>
+   <description></description>
+   <name>Checkpoint_cura_all_ele</name>
+   <tag></tag>
+   <excel-source-info>
+      <is-from-test-data>false</is-from-test-data>
+      <source-url>/home/vishnu/git/Testing_project_CURA-HEALTHCARE/CURA DATAS/Cura_LOGIN_DATA.xlsx</source-url>
+      <source-type>ExcelFile</source-type>
+      <sheet-name-or-separator>checkpoint</sheet-name-or-separator>
+      <is-using-relative-path>false</is-using-relative-path>
+      <is-using-first-row-as-header>true</is-using-first-row-as-header>
+   </excel-source-info>
+   <taken-date>2024-02-03T06:38:56.608+05:30</taken-date>
+   <column-names>
+      <column-name>CURA Healthcare Service</column-name>
+      <column-name>Make Appointment</column-name>
+      <column-name>Appointment Confirmation</column-name>
+      <column-name>History</column-name>
+      <column-name>CURA Healthcare Service</column-name>
+   </column-names>
+   <checkpoint-data><![CDATA[[
+  [
+    {
+      "value": "CURA Healthcare Service",
+      "checked": true
+    },
+    {
+      "value": "Make Appointment",
+      "checked": true
+    },
+    {
+      "value": "Appointment Confirmation",
+      "checked": true
+    },
+    {
+      "value": "History",
+      "checked": true
+    },
+    {
+      "value": "CURA Healthcare Service",
+      "checked": true
+    }
+  ]
+]]]></checkpoint-data>
+</checkpoint>

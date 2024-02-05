@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+CURA_History-Logout_TS,,,,31-01-2024 13:24:06,31-01-2024 13:24:28,21.597s,ERROR
+,,,,,,,
+Test Cases/TS_CURA/CURA_History/History,,,,31-01-2024 13:24:20,31-01-2024 13:24:22,2.049s,ERROR
+Start listener action : sampleBeforeTestCase,,,,31-01-2024 13:24:20,31-01-2024 13:24:20,0.473s,ERROR
+"callTestCase(findTestCase(""TS_CURA/CURA_Makeappointment/appointment booking""), [""Hospital"":findTestData(""CURA_BookingAppointment/Dropdown_list"").getValue(1, 1), ""Program"":findTestData(""CURA_BookingAppointment/Healthcare_Program"").getValue(1, 1), ... ], STOP_ON_FAILURE)",,,,31-01-2024 13:24:20,31-01-2024 13:24:21,0.537s,ERROR
+Start listener action : sampleAfterTestCase,,,,31-01-2024 13:24:21,31-01-2024 13:24:22,0.721s,ERROR
+,,,,,,,
+Test Cases/TS_CURA/CURA_Logout/Logout,,,,31-01-2024 13:24:27,31-01-2024 13:24:28,1.328s,ERROR
+Start listener action : sampleBeforeTestCase,,,,31-01-2024 13:24:27,31-01-2024 13:24:27,0.450s,ERROR
+"callTestCase(findTestCase(""TS_CURA/CURA_History/History""), [:], STOP_ON_FAILURE)",,,,31-01-2024 13:24:27,31-01-2024 13:24:28,0.539s,ERROR
+Start listener action : sampleAfterTestCase,,,,31-01-2024 13:24:28,31-01-2024 13:24:28,0.196s,ERROR

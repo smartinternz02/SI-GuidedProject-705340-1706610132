@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+CURA_History-Logout_TS,Chrome 120.0.0.0,,,30-01-2024 12:35:06,30-01-2024 12:35:49,43.035s,PASSED
+,,,,,,,
+Test Cases/CURA_History/History,Chrome 120.0.0.0,,,30-01-2024 12:35:06,30-01-2024 12:35:28,21.625s,PASSED
+"callTestCase(findTestCase(""CURA_Makeappointment/appointment booking""), [""Hospital"":findTestData(""CURA_BookingAppointment/Dropdown_list"").getValue(1, 1), ""Program"":findTestData(""CURA_BookingAppointment/Healthcare_Program"").getValue(1, 1), ... ], STOP_ON_FAILURE)",Chrome 120.0.0.0,,,30-01-2024 12:35:07,30-01-2024 12:35:25,18.756s,PASSED
+"click(findTestObject(""cura_healthcare/Cura_History/History/i_CURA Healthcare_fa fa-bars""))",Chrome 120.0.0.0,,,30-01-2024 12:35:25,30-01-2024 12:35:26,0.593s,PASSED
+"click(findTestObject(""cura_healthcare/Cura_History/History/a_History""))",Chrome 120.0.0.0,,,30-01-2024 12:35:26,30-01-2024 12:35:27,1.442s,PASSED
+"verifyElementPresent(findTestObject(""cura_healthcare/Cura_History/History/h2_History""), 0)",Chrome 120.0.0.0,,,30-01-2024 12:35:27,30-01-2024 12:35:28,0.540s,PASSED
+,,,,,,,
+Test Cases/CURA_Logout/Logout,Chrome 120.0.0.0,,,30-01-2024 12:35:28,30-01-2024 12:35:49,21.230s,PASSED
+"callTestCase(findTestCase(""CURA_History/History""), [:], STOP_ON_FAILURE)",Chrome 120.0.0.0,,,30-01-2024 12:35:28,30-01-2024 12:35:47,18.834s,PASSED
+"click(findTestObject(""cura_healthcare/Cura_Logout/Logout/i_CURA Healthcare_fa fa-bars""))",Chrome 120.0.0.0,,,30-01-2024 12:35:47,30-01-2024 12:35:47,0.397s,PASSED
+"click(findTestObject(""cura_healthcare/Cura_Logout/Logout/a_Logout""))",Chrome 120.0.0.0,,,30-01-2024 12:35:47,30-01-2024 12:35:49,1.362s,PASSED
+"verifyElementVisible(findTestObject(""cura_healthcare/Cura_Logout/Logout/div_HOME""))",Chrome 120.0.0.0,,,30-01-2024 12:35:49,30-01-2024 12:35:49,0.395s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,30-01-2024 12:35:49,30-01-2024 12:35:49,0.137s,PASSED

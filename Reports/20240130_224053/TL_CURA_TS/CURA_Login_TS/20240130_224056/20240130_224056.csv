@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+CURA_Login_TS,,,,30-01-2024 22:41:53,30-01-2024 22:41:54,1.509s,FAILED
+,,,,,,,
+Test Cases/CURA_Login/Login,,,,30-01-2024 22:41:54,30-01-2024 22:41:54,0.204s,FAILED
+"callTestCase(findTestCase(""CURA_Name_validation/CURA Heading validation""), [""link"":""https://katalon-demo-cura.herokuapp.com/""], STOP_ON_FAILURE)",,,,30-01-2024 22:41:54,30-01-2024 22:41:54,0.086s,PASSED
+"click(findTestObject(""cura_healthcare/Cura_LOGIN/Cura_login/i_CURA Healthcare_fa fa-bars""))",,,,30-01-2024 22:41:54,30-01-2024 22:41:54,0.060s,FAILED

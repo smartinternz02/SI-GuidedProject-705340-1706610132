@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+CURA_History-Logout,,,,31-01-2024 20:07:59,31-01-2024 20:08:56,57.126s,FAILED
+,,,,,,,
+Test Cases/TC_CURA/CURA_History/History,,,,31-01-2024 20:08:23,31-01-2024 20:08:28,5.047s,FAILED
+Start listener action : sampleBeforeTestCase,,,,31-01-2024 20:08:23,31-01-2024 20:08:24,0.238s,ERROR
+"callTestCase(findTestCase(""TC_CURA/CURA_Makeappointment/appointment booking""), [""Hospital"":Hospital, ""Set_Date"":date, ""Comment"":comment], STOP_ON_FAILURE)",,,,31-01-2024 20:08:24,31-01-2024 20:08:28,4.478s,FAILED
+Start listener action : sampleAfterTestCase,,,,31-01-2024 20:08:28,31-01-2024 20:08:28,0.196s,ERROR
+,,,,,,,
+Test Cases/TC_CURA/CURA_Logout/Logout,,,,31-01-2024 20:08:50,31-01-2024 20:08:56,5.997s,FAILED
+Start listener action : sampleBeforeTestCase,,,,31-01-2024 20:08:50,31-01-2024 20:08:50,0.141s,ERROR
+"callTestCase(findTestCase(""TC_CURA/CURA_History/History""), [""Hospital"":findTestData(""CURA_BookingAppointment/Dropdown_list"").getValue(1, 1), ""date"":findTestData(""CURA_BookingAppointment/Date_Booking"").getValue(1, 1), ... ], STOP_ON_FAILURE)",,,,31-01-2024 20:08:50,31-01-2024 20:08:56,5.444s,FAILED
+Start listener action : sampleAfterTestCase,,,,31-01-2024 20:08:56,31-01-2024 20:08:56,0.339s,ERROR

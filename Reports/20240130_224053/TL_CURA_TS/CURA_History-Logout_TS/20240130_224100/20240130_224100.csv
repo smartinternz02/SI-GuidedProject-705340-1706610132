@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+CURA_History-Logout_TS,,,,30-01-2024 22:42:05,30-01-2024 22:42:07,2.322s,ERROR
+,,,,,,,
+Test Cases/CURA_History/History,,,,30-01-2024 22:42:06,30-01-2024 22:42:06,0.102s,ERROR
+"callTestCase(findTestCase(""CURA_Makeappointment/appointment booking""), [""Hospital"":findTestData(""CURA_BookingAppointment/Dropdown_list"").getValue(1, 1), ""Program"":findTestData(""CURA_BookingAppointment/Healthcare_Program"").getValue(1, 1), ... ], STOP_ON_FAILURE)",,,,30-01-2024 22:42:06,30-01-2024 22:42:06,0.060s,ERROR
+Start tear down : tearDownTestCase,,,,30-01-2024 22:42:06,30-01-2024 22:42:06,0.011s,PASSED
+,,,,,,,
+Test Cases/CURA_Logout/Logout,,,,30-01-2024 22:42:07,30-01-2024 22:42:07,0.133s,ERROR
+"callTestCase(findTestCase(""CURA_History/History""), [:], STOP_ON_FAILURE)",,,,30-01-2024 22:42:07,30-01-2024 22:42:07,0.109s,ERROR
+Start tear down : tearDownTestCase,,,,30-01-2024 22:42:07,30-01-2024 22:42:07,0.008s,PASSED

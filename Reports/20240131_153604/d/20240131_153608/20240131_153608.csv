@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+d,,,,31-01-2024 15:38:10,31-01-2024 15:38:16,6.016s,FAILED
+,,,,,,,
+Test Cases/d,,,,31-01-2024 15:38:15,31-01-2024 15:38:16,0.785s,FAILED
+Start listener action : sampleBeforeTestCase,,,,31-01-2024 15:38:16,31-01-2024 15:38:16,0.256s,ERROR
+"click(findTestObject(""cura_healthcare_obj/Cura_LOGIN/login_obj/a_CURA Healthcare_menu-toggle""))",,,,31-01-2024 15:38:16,31-01-2024 15:38:16,0.148s,FAILED
+Start listener action : sampleAfterTestCase,,,,31-01-2024 15:38:16,31-01-2024 15:38:16,0.216s,ERROR

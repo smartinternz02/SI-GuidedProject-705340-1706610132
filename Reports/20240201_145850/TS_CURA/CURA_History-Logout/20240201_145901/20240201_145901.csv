@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+CURA_History-Logout,Firefox 122.0,,,01-02-2024 15:04:36,01-02-2024 15:07:12,2m - 36.840s,PASSED
+,,,,,,,
+Test Cases/TC_CURA/CURA_History/History,Firefox 122.0,,,01-02-2024 15:04:36,01-02-2024 15:05:56,1m - 19.809s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 122.0,,,01-02-2024 15:04:36,01-02-2024 15:04:38,1.181s,ERROR
+"callTestCase(findTestCase(""TC_CURA/CURA_Makeappointment/appointment booking""), [""Hospital"":Hospital, ""Set_Date"":date, ""Comment"":comment], STOP_ON_FAILURE)",Firefox 122.0,,,01-02-2024 15:04:38,01-02-2024 15:05:18,40.147s,PASSED
+"click(findTestObject(""cura_healthcare_obj/Cura_History/History/i_CURA Healthcare_fa fa-bars""))",Firefox 122.0,,,01-02-2024 15:05:18,01-02-2024 15:05:19,0.726s,PASSED
+"click(findTestObject(""cura_healthcare_obj/Cura_History/History/a_History""))",Firefox 122.0,,,01-02-2024 15:05:19,01-02-2024 15:05:20,1.029s,PASSED
+"verifyElementPresent(findTestObject(""cura_healthcare_obj/Cura_History/History/h2_History""), 0)",Firefox 122.0,,,01-02-2024 15:05:20,01-02-2024 15:05:20,0.461s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 122.0,,,01-02-2024 15:05:20,01-02-2024 15:05:56,35.788s,ERROR
+,,,,,,,
+Test Cases/TC_CURA/CURA_Logout/Logout,Firefox 122.0,,,01-02-2024 15:05:56,01-02-2024 15:07:12,1m - 16.372s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 122.0,,,01-02-2024 15:05:56,01-02-2024 15:06:32,35.780s,ERROR
+"callTestCase(findTestCase(""TC_CURA/CURA_History/History""), [""Hospital"":findTestData(""CURA_BookingAppointment/Dropdown_list"").getValue(1, 1), ""date"":findTestData(""CURA_BookingAppointment/Date_Booking"").getValue(1, 1), ... ], STOP_ON_FAILURE)",Firefox 122.0,,,01-02-2024 15:06:32,01-02-2024 15:07:06,34.188s,PASSED
+"click(findTestObject(""cura_healthcare_obj/Cura_Logout/Logout/i_CURA Healthcare_fa fa-bars""))",Firefox 122.0,,,01-02-2024 15:07:06,01-02-2024 15:07:07,0.583s,PASSED
+"click(findTestObject(""cura_healthcare_obj/Cura_Logout/Logout/a_Logout""))",Firefox 122.0,,,01-02-2024 15:07:07,01-02-2024 15:07:08,1.289s,PASSED
+"verifyElementVisible(findTestObject(""cura_healthcare_obj/Cura_Logout/Logout/div_HOME""))",Firefox 122.0,,,01-02-2024 15:07:08,01-02-2024 15:07:09,0.460s,PASSED
+closeBrowser(),Firefox 122.0,,,01-02-2024 15:07:09,01-02-2024 15:07:12,3.672s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 122.0,,,01-02-2024 15:07:12,01-02-2024 15:07:12,0.157s,ERROR

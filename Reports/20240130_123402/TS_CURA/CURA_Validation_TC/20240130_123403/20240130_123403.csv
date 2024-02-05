@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+CURA_Validation_TC,Chrome 120.0.0.0,,,30-01-2024 12:34:13,30-01-2024 12:34:21,8.106s,PASSED
+,,,,,,,
+Test Cases/CURA_Name_validation/CURA Heading validation,Chrome 120.0.0.0,,,30-01-2024 12:34:13,30-01-2024 12:34:21,7.965s,PASSED
+openBrowser(link),Chrome 120.0.0.0,,,30-01-2024 12:34:13,30-01-2024 12:34:21,7.223s,PASSED
+"verifyElementPresent(findTestObject(""cura_healthcare/Cura_name_validation/h1_CURA Healthcare Service""), 30)",Chrome 120.0.0.0,,,30-01-2024 12:34:21,30-01-2024 12:34:21,0.478s,PASSED

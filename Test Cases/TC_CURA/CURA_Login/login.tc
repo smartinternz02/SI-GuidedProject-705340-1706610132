@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>96209517-cefd-4e11-a55d-d793bba73f5e</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>90fc50dc-0c25-4839-a3d5-b8679e771607</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/CURA_login_data/login_data</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>90fc50dc-0c25-4839-a3d5-b8679e771607</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Username</value>
+      <variableId>b65402ef-fe4b-4ab4-b9ed-2b04424906cf</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>90fc50dc-0c25-4839-a3d5-b8679e771607</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Password</value>
+      <variableId>ac195ab9-9b8d-4020-84cf-50c1a68ea8d1</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('CURA_login_data/login_data')</defaultValue>
+      <description></description>
+      <id>b65402ef-fe4b-4ab4-b9ed-2b04424906cf</id>
+      <masked>false</masked>
+      <name>name</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CURA_login_data/login_data')</defaultValue>
+      <description></description>
+      <id>ac195ab9-9b8d-4020-84cf-50c1a68ea8d1</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

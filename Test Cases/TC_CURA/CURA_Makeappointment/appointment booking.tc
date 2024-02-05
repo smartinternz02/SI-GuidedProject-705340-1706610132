@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>appointment booking</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c7b23761-153e-48fe-af3d-564b20a23cf2</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>b339059b-bbeb-421e-a072-e31bde4a4458</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/CURA_BookingAppointment/Dropdown_list</testDataId>
+   </testDataLinks>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>bf029482-43d4-4176-a546-72f3f9fed850</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/CURA_BookingAppointment/Date_Booking</testDataId>
+   </testDataLinks>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>c6ce2762-056d-40e4-93ed-8b59e05293ae</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/CURA_BookingAppointment/Comment</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>b339059b-bbeb-421e-a072-e31bde4a4458</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Hospital names</value>
+      <variableId>c6ed187a-d3f3-43c8-9c30-8d3c8db146b5</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>bf029482-43d4-4176-a546-72f3f9fed850</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Date</value>
+      <variableId>42e01542-5722-44c7-8b0f-64de0e268395</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>c6ce2762-056d-40e4-93ed-8b59e05293ae</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Comments</value>
+      <variableId>c94139b2-07a0-4dc7-ba40-16642c7e7a17</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('CURA_BookingAppointment/Dropdown_list')</defaultValue>
+      <description></description>
+      <id>c6ed187a-d3f3-43c8-9c30-8d3c8db146b5</id>
+      <masked>false</masked>
+      <name>Hospital</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CURA_BookingAppointment/Date_Booking')</defaultValue>
+      <description></description>
+      <id>42e01542-5722-44c7-8b0f-64de0e268395</id>
+      <masked>false</masked>
+      <name>Set_Date</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CURA_BookingAppointment/Comment')</defaultValue>
+      <description></description>
+      <id>c94139b2-07a0-4dc7-ba40-16642c7e7a17</id>
+      <masked>false</masked>
+      <name>Comment</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+CURA_Appointment_TC,Firefox 122.0,,,01-02-2024 15:02:49,01-02-2024 15:04:02,1m - 12.095s,PASSED
+,,,,,,,
+Test Cases/TC_CURA/CURA_Makeappointment/appointment booking,Firefox 122.0,,,01-02-2024 15:02:50,01-02-2024 15:04:02,1m - 11.405s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 122.0,,,01-02-2024 15:02:50,01-02-2024 15:02:52,1.143s,ERROR
+"callTestCase(findTestCase(""TC_CURA/CURA_Login/login""), [""link"":""https://katalon-demo-cura.herokuapp.com/"", ""Name"":findTestData(""CURA_login_data/login_data"").getValue(1, 1), ""Password"":findTestData(""CURA_login_data/login_data"").getValue(2, 1)], STOP_ON_FAILURE)",Firefox 122.0,,,01-02-2024 15:02:52,01-02-2024 15:03:20,27.771s,PASSED
+"selectOptionByValue(findTestObject(""cura_healthcare_obj/Cura_booking_appointment/Booking appointment/Dropdown list""), Hospital, false)",Firefox 122.0,,,01-02-2024 15:03:20,01-02-2024 15:03:21,1.133s,PASSED
+"ky_droplist.dropdownvalue.CheckDropDownListElementExist(findTestObject(""cura_healthcare_obj/Cura_booking_appointment/Booking appointment/select_Tokyo CURA Healthcare Center        _5b4107""), ""Hongkong CURA Healthcare Center"")",Firefox 122.0,,,01-02-2024 15:03:21,01-02-2024 15:03:22,1.010s,PASSED
+"check(findTestObject(""cura_healthcare_obj/Cura_booking_appointment/Booking appointment/Readmission""))",Firefox 122.0,,,01-02-2024 15:03:22,01-02-2024 15:03:23,0.718s,PASSED
+"check(findTestObject(""cura_healthcare_obj/Cura_booking_appointment/Booking appointment/input_Medicaid_programs""))",Firefox 122.0,,,01-02-2024 15:03:23,01-02-2024 15:03:23,0.625s,PASSED
+"setText(findTestObject(""cura_healthcare_obj/Cura_booking_appointment/Booking appointment/input_Visit Date (Required)_visit_date""), Set_Date)",Firefox 122.0,,,01-02-2024 15:03:23,01-02-2024 15:03:25,1.329s,PASSED
+"setText(findTestObject(""cura_healthcare_obj/Cura_booking_appointment/Booking appointment/textarea_Comment_comment""), Comment)",Firefox 122.0,,,01-02-2024 15:03:25,01-02-2024 15:03:25,0.778s,PASSED
+"click(findTestObject(""cura_healthcare_obj/Cura_booking_appointment/Booking appointment/button_Book Appointment""))",Firefox 122.0,,,01-02-2024 15:03:25,01-02-2024 15:03:27,1.372s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 122.0,,,01-02-2024 15:03:27,01-02-2024 15:04:02,34.909s,ERROR

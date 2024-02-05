@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+CURA_Appointment_TC,,,,31-01-2024 20:06:37,31-01-2024 20:07:11,33.633s,FAILED
+,,,,,,,
+Test Cases/TC_CURA/CURA_Makeappointment/appointment booking,,,,31-01-2024 20:07:05,31-01-2024 20:07:11,5.103s,FAILED
+Start listener action : sampleBeforeTestCase,,,,31-01-2024 20:07:06,31-01-2024 20:07:06,0.271s,ERROR
+"callTestCase(findTestCase(""TC_CURA/CURA_Login/login""), [""link"":""https://katalon-demo-cura.herokuapp.com/"", ""Name"":findTestData(""CURA_login_data/login_data"").getValue(1, 1), ""Password"":findTestData(""CURA_login_data/login_data"").getValue(2, 1)], STOP_ON_FAILURE)",,,,31-01-2024 20:07:06,31-01-2024 20:07:10,4.222s,FAILED
+Start listener action : sampleAfterTestCase,,,,31-01-2024 20:07:10,31-01-2024 20:07:11,0.429s,ERROR

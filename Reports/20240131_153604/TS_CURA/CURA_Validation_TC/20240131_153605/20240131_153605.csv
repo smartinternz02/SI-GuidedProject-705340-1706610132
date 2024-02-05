@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+CURA_Validation_TC,Chrome 121.0.0.0,,,31-01-2024 15:36:37,31-01-2024 15:37:32,54.713s,PASSED
+,,,,,,,
+Test Cases/TC_CURA/CURA_Name_validation/CURA Heading validation,Chrome 121.0.0.0,,,31-01-2024 15:36:38,31-01-2024 15:37:32,53.993s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,31-01-2024 15:36:38,31-01-2024 15:36:41,2.522s,ERROR
+"openBrowser("""")",Chrome 121.0.0.0,,,31-01-2024 15:36:41,31-01-2024 15:36:49,7.191s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 121.0.0.0,,,31-01-2024 15:36:49,31-01-2024 15:36:55,6.261s,PASSED
+"verifyElementPresent(findTestObject(""cura_healthcare_obj/Cura_name_validation/h1_CURA Healthcare Service""), 0)",Chrome 121.0.0.0,,,31-01-2024 15:36:55,31-01-2024 15:36:56,0.858s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,31-01-2024 15:36:56,31-01-2024 15:37:32,36.332s,ERROR

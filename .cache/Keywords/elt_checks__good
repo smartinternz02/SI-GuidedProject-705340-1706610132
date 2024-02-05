@@ -1,0 +1,30 @@
+{
+  "keywordFileContentHash": "A6D3679368C6FAC9BE71B85F6BB88C6E",
+  "keywordClasses": [
+    {
+      "name": "elt_checks.good",
+      "keywordMethods": [
+        {
+          "name": "verifyElementClickable",
+          "parameters": [
+            {
+              "name": "testObject",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "com.kms.katalon.core.testobject.TestObject",
+                "unresolvedClassName": "TestObject",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

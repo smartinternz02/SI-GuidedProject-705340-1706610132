@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_cura_TL" time="14.857" tests="0" failures="0" errors="0">
+   <testsuite name="TS_cura_TL" tests="0" failures="0" errors="0" time="14.857" skipped="0" timestamp="31-01-2024T11:26:20" hostname="vishnu - vishnu" id="Test Suites/TL_TS_CURA/TS_cura_TL">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/vishnu/git/Testing_project_CURA-HEALTHCARE/Reports/20240131_112603/TL_TS_CURA/TS_cura_TL/20240131_112603"/>
+         <property name="logFiles" value="/home/vishnu/git/Testing_project_CURA-HEALTHCARE/Reports/20240131_112603/TL_TS_CURA/TS_cura_TL/20240131_112603/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="vishnu - vishnu"/>
+         <property name="hostAddress" value="127.0.1.1"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+      </properties>
+      <system-out><![CDATA[31-01-2024T11:26:20 - [TEST_SUITE][PASSED] - TS_cura_TL: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

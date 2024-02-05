@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+CURA_Validation_TS,Chrome 120.0.0.0,,,30-01-2024 22:12:03,30-01-2024 22:12:47,43.753s,PASSED
+,,,,,,,
+Test Cases/CURA_Name_validation/CURA Heading validation,Chrome 120.0.0.0,,,30-01-2024 22:12:10,30-01-2024 22:12:47,36.465s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,30-01-2024 22:12:10,30-01-2024 22:12:11,0.309s,PASSED
+return null,Chrome 120.0.0.0,,,30-01-2024 22:12:11,30-01-2024 22:12:11,0.001s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,30-01-2024 22:12:11,30-01-2024 22:12:47,36.072s,ERROR
