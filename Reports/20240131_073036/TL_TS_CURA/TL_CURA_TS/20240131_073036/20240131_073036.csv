@@ -1,7 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
-TL_CURA_TS,Chrome 120.0.0.0,,,31-01-2024 07:30:48,31-01-2024 07:33:29,2m - 41.028s,FAILED
-,,,,,,,
-Test Cases/TL_TS_CURA/cura_test_listener,Chrome 120.0.0.0,,,31-01-2024 07:33:28,31-01-2024 07:33:29,0.317s,FAILED
-Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,31-01-2024 07:33:28,31-01-2024 07:33:29,0.112s,ERROR
-"click(findTestObject(""TL_CURA_OBJ/CURA ALL elements/a_CURA Healthcare_menu-toggle""))",Chrome 120.0.0.0,,,31-01-2024 07:33:29,31-01-2024 07:33:29,0.090s,FAILED
-Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,31-01-2024 07:33:29,31-01-2024 07:33:29,0.096s,ERROR

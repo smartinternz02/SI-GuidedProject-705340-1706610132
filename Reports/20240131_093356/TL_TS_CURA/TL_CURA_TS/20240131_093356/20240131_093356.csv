@@ -1,9 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
-TL_CURA_TS,Chrome 121.0.0.0,,,31-01-2024 09:34:03,31-01-2024 09:39:42,5m - 38.525s,FAILED
-,,,,,,,
-Test Cases/TL_TS_CURA/cura_test_listener,Chrome 121.0.0.0,,,31-01-2024 09:37:55,31-01-2024 09:39:42,1m - 47.028s,FAILED
-Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,31-01-2024 09:37:55,31-01-2024 09:38:30,34.963s,ERROR
-"click(findTestObject(""TL_CURA_OBJ/CURA ALL elements/a_CURA Healthcare_menu-toggle""))",Chrome 121.0.0.0,,,31-01-2024 09:38:30,31-01-2024 09:38:30,0.317s,PASSED
-"click(findTestObject(""TL_CURA_OBJ/CURA ALL elements/a_Login""))",Chrome 121.0.0.0,,,31-01-2024 09:38:30,31-01-2024 09:38:31,1.137s,PASSED
-"selectOptionByValue(findTestObject(""cura_healthcare_obj/Cura_booking_appointment/Booking appointment/Dropdown list""), ""Hongkong CURA Healthcare Center"", false)",Chrome 121.0.0.0,,,31-01-2024 09:38:31,31-01-2024 09:39:06,34.786s,FAILED
-Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,31-01-2024 09:39:06,31-01-2024 09:39:42,35.806s,ERROR

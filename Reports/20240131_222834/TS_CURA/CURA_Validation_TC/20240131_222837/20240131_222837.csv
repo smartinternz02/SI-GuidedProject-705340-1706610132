@@ -1,7 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
-CURA_Validation_TC,,,,31-01-2024 22:29:18,31-01-2024 22:29:40,21.869s,FAILED
-,,,,,,,
-Test Cases/TC_CURA/CURA_Name_validation/CURA Heading validation,,,,31-01-2024 22:29:35,31-01-2024 22:29:40,4.399s,FAILED
-Start listener action : sampleBeforeTestCase,,,,31-01-2024 22:29:35,31-01-2024 22:29:36,0.324s,ERROR
-"openBrowser("""")",,,,31-01-2024 22:29:36,31-01-2024 22:29:39,3.568s,FAILED
-Start listener action : sampleAfterTestCase,,,,31-01-2024 22:29:39,31-01-2024 22:29:40,0.323s,ERROR

@@ -1,7 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
-CURA_Login_TS,,,,02-02-2024 11:22:48,02-02-2024 11:23:24,36.516s,FAILED
-,,,,,,,
-Test Cases/TC_CURA/CURA_Login/login,,,,02-02-2024 11:23:19,02-02-2024 11:23:24,5.117s,FAILED
-Start listener action : sampleBeforeTestCase,,,,02-02-2024 11:23:19,02-02-2024 11:23:20,0.390s,ERROR
-"callTestCase(findTestCase(""TC_CURA/CURA_Name_validation/CURA Heading validation""), [""link"":""https://katalon-demo-cura.herokuapp.com/""], STOP_ON_FAILURE)",,,,02-02-2024 11:23:20,02-02-2024 11:23:24,4.198s,FAILED
-Start listener action : sampleAfterTestCase,,,,02-02-2024 11:23:24,02-02-2024 11:23:24,0.315s,ERROR
