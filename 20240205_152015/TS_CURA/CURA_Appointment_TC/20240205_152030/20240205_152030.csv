@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+CURA_Appointment_TC,Chrome 121.0.0.0,,,05-02-2024 15:24:34,05-02-2024 15:25:47,1m - 12.988s,PASSED
+,,,,,,,
+Test Cases/TC_CURA/CURA_Makeappointment/appointment booking,Chrome 121.0.0.0,,,05-02-2024 15:24:35,05-02-2024 15:25:47,1m - 11.957s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,05-02-2024 15:24:36,05-02-2024 15:24:38,2.005s,ERROR
+"callTestCase(findTestCase(""TC_CURA/CURA_Login/login""), [""name"":findTestData(""CURA_login_data/login_data"").getValue(1, 1), ""password"":findTestData(""CURA_login_data/login_data"").getValue(2, 1)], STOP_ON_FAILURE)",Chrome 121.0.0.0,,,05-02-2024 15:24:39,05-02-2024 15:25:02,23.685s,PASSED
+"verifyCheckpoint(findCheckpoint(""Checkpoints/Checkpoints_Cura_Excel/Checkpoint_cura_all_ele""), true)",Chrome 121.0.0.0,,,05-02-2024 15:25:02,05-02-2024 15:25:03,0.174s,PASSED
+"selectOptionByValue(findTestObject(""cura_healthcare_obj/Cura_booking_appointment/Booking appointment/Dropdown list""), Hospital, false)",Chrome 121.0.0.0,,,05-02-2024 15:25:03,05-02-2024 15:25:04,1.280s,PASSED
+"ky_droplist.dropdownvalue.CheckDropDownListElementExist(findTestObject(""cura_healthcare_obj/Cura_booking_appointment/Booking appointment/select_Tokyo CURA Healthcare Center        _5b4107""), ""Hongkong CURA Healthcare Center"")",Chrome 121.0.0.0,,,05-02-2024 15:25:04,05-02-2024 15:25:05,1.110s,PASSED
+"check(findTestObject(""cura_healthcare_obj/Cura_booking_appointment/Booking appointment/Readmission""))",Chrome 121.0.0.0,,,05-02-2024 15:25:05,05-02-2024 15:25:06,0.647s,PASSED
+"check(findTestObject(""cura_healthcare_obj/Cura_booking_appointment/Booking appointment/input_Medicaid_programs""))",Chrome 121.0.0.0,,,05-02-2024 15:25:06,05-02-2024 15:25:06,0.716s,PASSED
+"setText(findTestObject(""cura_healthcare_obj/Cura_booking_appointment/Booking appointment/input_Visit Date (Required)_visit_date""), Set_Date)",Chrome 121.0.0.0,,,05-02-2024 15:25:06,05-02-2024 15:25:08,1.740s,PASSED
+"setText(findTestObject(""cura_healthcare_obj/Cura_booking_appointment/Booking appointment/textarea_Comment_comment""), Comment)",Chrome 121.0.0.0,,,05-02-2024 15:25:08,05-02-2024 15:25:09,1.328s,PASSED
+"click(findTestObject(""cura_healthcare_obj/Cura_booking_appointment/Booking appointment/button_Book Appointment""))",Chrome 121.0.0.0,,,05-02-2024 15:25:09,05-02-2024 15:25:12,2.195s,PASSED
+"verifyCheckpoint(findCheckpoint(""Checkpoints/Checkpoints_Cura_Excel/Checkpoint_cura_all_ele""), true)",Chrome 121.0.0.0,,,05-02-2024 15:25:12,05-02-2024 15:25:12,0.158s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,05-02-2024 15:25:12,05-02-2024 15:25:47,35.593s,ERROR

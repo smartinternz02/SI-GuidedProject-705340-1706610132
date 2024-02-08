@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+CURA_History-Logout,Chrome 121.0.0.0,,,07-02-2024 10:14:34,07-02-2024 10:17:04,2m - 30.269s,PASSED
+,,,,,,,
+Test Cases/TC_CURA/CURA_History/History,Chrome 121.0.0.0,,,07-02-2024 10:14:34,07-02-2024 10:15:53,1m - 18.535s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,07-02-2024 10:14:35,07-02-2024 10:14:36,1.136s,ERROR
+"callTestCase(findTestCase(""TC_CURA/CURA_Makeappointment/appointment booking""), [""Hospital"":Hospital, ""Set_Date"":date, ""Comment"":comment], STOP_ON_FAILURE)",Chrome 121.0.0.0,,,07-02-2024 10:14:36,07-02-2024 10:15:15,39.333s,PASSED
+"click(findTestObject(""cura_healthcare_obj/Cura_History/History/i_CURA Healthcare_fa fa-bars""))",Chrome 121.0.0.0,,,07-02-2024 10:15:15,07-02-2024 10:15:16,0.567s,PASSED
+"click(findTestObject(""cura_healthcare_obj/Cura_History/History/a_History""))",Chrome 121.0.0.0,,,07-02-2024 10:15:16,07-02-2024 10:15:17,1.428s,PASSED
+"verifyCheckpoint(findCheckpoint(""Checkpoints/Checkpoints_Cura_Excel/Checkpoint_cura_all_ele""), true)",Chrome 121.0.0.0,,,07-02-2024 10:15:17,07-02-2024 10:15:18,0.185s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,07-02-2024 10:15:18,07-02-2024 10:15:53,35.413s,ERROR
+,,,,,,,
+Test Cases/TC_CURA/CURA_Logout/Logout,Chrome 121.0.0.0,,,07-02-2024 10:15:53,07-02-2024 10:17:04,1m - 11.029s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,07-02-2024 10:15:53,07-02-2024 10:16:28,35.258s,ERROR
+"callTestCase(findTestCase(""TC_CURA/CURA_History/History""), [""Hospital"":findTestData(""CURA_BookingAppointment/Dropdown_list"").getValue(1, 1), ""date"":findTestData(""CURA_BookingAppointment/Date_Booking"").getValue(1, 1), ... ], STOP_ON_FAILURE)",Chrome 121.0.0.0,,,07-02-2024 10:16:29,07-02-2024 10:17:01,32.446s,PASSED
+"click(findTestObject(""cura_healthcare_obj/Cura_Logout/Logout/i_CURA Healthcare_fa fa-bars""))",Chrome 121.0.0.0,,,07-02-2024 10:17:01,07-02-2024 10:17:02,0.640s,PASSED
+"click(findTestObject(""cura_healthcare_obj/Cura_Logout/Logout/a_Logout""))",Chrome 121.0.0.0,,,07-02-2024 10:17:02,07-02-2024 10:17:03,1.662s,PASSED
+"verifyCheckpoint(findCheckpoint(""Checkpoints/Checkpoints_Cura_Excel/Checkpoint_cura_all_ele""), true)",Chrome 121.0.0.0,,,07-02-2024 10:17:03,07-02-2024 10:17:03,0.114s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,07-02-2024 10:17:03,07-02-2024 10:17:04,0.290s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,07-02-2024 10:17:04,07-02-2024 10:17:04,0.275s,ERROR
