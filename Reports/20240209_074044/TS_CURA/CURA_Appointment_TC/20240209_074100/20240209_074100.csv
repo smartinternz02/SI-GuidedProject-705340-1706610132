@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+CURA_Appointment_TC,Firefox 122.0,,,09-02-2024 07:44:46,09-02-2024 07:46:02,1m - 15.761s,PASSED
+,,,,,,,
+Test Cases/TC_CURA/CURA_Makeappointment/appointment booking,Firefox 122.0,,,09-02-2024 07:44:47,09-02-2024 07:46:02,1m - 15.165s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 122.0,,,09-02-2024 07:44:47,09-02-2024 07:44:49,1.267s,ERROR
+"callTestCase(findTestCase(""TC_CURA/CURA_Login/login""), [""name"":findTestData(""CURA_login_data/login_data"").getValue(1, 1), ""password"":findTestData(""CURA_login_data/login_data"").getValue(2, 1)], STOP_ON_FAILURE)",Firefox 122.0,,,09-02-2024 07:44:49,09-02-2024 07:45:17,27.724s,PASSED
+"verifyCheckpoint(findCheckpoint(""Checkpoints/Checkpoints_Cura_Excel/Checkpoint_cura_all_ele""), true)",Firefox 122.0,,,09-02-2024 07:45:17,09-02-2024 07:45:17,0.137s,PASSED
+"selectOptionByValue(findTestObject(""cura_healthcare_obj/Cura_booking_appointment/Booking appointment/Dropdown list""), Hospital, false)",Firefox 122.0,,,09-02-2024 07:45:17,09-02-2024 07:45:18,1.208s,PASSED
+"ky_droplist.dropdownvalue.CheckDropDownListElementExist(findTestObject(""cura_healthcare_obj/Cura_booking_appointment/Booking appointment/select_Tokyo CURA Healthcare Center        _5b4107""), ""Hongkong CURA Healthcare Center"")",Firefox 122.0,,,09-02-2024 07:45:18,09-02-2024 07:45:19,0.884s,PASSED
+"check(findTestObject(""cura_healthcare_obj/Cura_booking_appointment/Booking appointment/Readmission""))",Firefox 122.0,,,09-02-2024 07:45:19,09-02-2024 07:45:20,0.734s,PASSED
+"check(findTestObject(""cura_healthcare_obj/Cura_booking_appointment/Booking appointment/input_Medicaid_programs""))",Firefox 122.0,,,09-02-2024 07:45:20,09-02-2024 07:45:20,0.607s,PASSED
+"setText(findTestObject(""cura_healthcare_obj/Cura_booking_appointment/Booking appointment/input_Visit Date (Required)_visit_date""), Set_Date)",Firefox 122.0,,,09-02-2024 07:45:20,09-02-2024 07:45:22,1.199s,PASSED
+"setText(findTestObject(""cura_healthcare_obj/Cura_booking_appointment/Booking appointment/textarea_Comment_comment""), Comment)",Firefox 122.0,,,09-02-2024 07:45:22,09-02-2024 07:45:22,0.817s,PASSED
+"click(findTestObject(""cura_healthcare_obj/Cura_booking_appointment/Booking appointment/button_Book Appointment""))",Firefox 122.0,,,09-02-2024 07:45:22,09-02-2024 07:45:26,3.549s,PASSED
+"verifyCheckpoint(findCheckpoint(""Checkpoints/Checkpoints_Cura_Excel/Checkpoint_cura_all_ele""), true)",Firefox 122.0,,,09-02-2024 07:45:26,09-02-2024 07:45:26,0.250s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 122.0,,,09-02-2024 07:45:26,09-02-2024 07:46:02,35.937s,ERROR

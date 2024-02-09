@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+CURA_History-Logout,Firefox 122.0,,,09-02-2024 07:46:39,09-02-2024 07:49:18,2m - 38.591s,PASSED
+,,,,,,,
+Test Cases/TC_CURA/CURA_History/History,Firefox 122.0,,,09-02-2024 07:46:40,09-02-2024 07:47:56,1m - 16.135s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 122.0,,,09-02-2024 07:46:40,09-02-2024 07:46:41,1.196s,ERROR
+"callTestCase(findTestCase(""TC_CURA/CURA_Makeappointment/appointment booking""), [""Hospital"":Hospital, ""Set_Date"":date, ""Comment"":comment], STOP_ON_FAILURE)",Firefox 122.0,,,09-02-2024 07:46:42,09-02-2024 07:47:18,36.553s,PASSED
+"click(findTestObject(""cura_healthcare_obj/Cura_History/History/i_CURA Healthcare_fa fa-bars""))",Firefox 122.0,,,09-02-2024 07:47:18,09-02-2024 07:47:19,0.633s,PASSED
+"click(findTestObject(""cura_healthcare_obj/Cura_History/History/a_History""))",Firefox 122.0,,,09-02-2024 07:47:19,09-02-2024 07:47:20,1.078s,PASSED
+"verifyCheckpoint(findCheckpoint(""Checkpoints/Checkpoints_Cura_Excel/Checkpoint_cura_all_ele""), true)",Firefox 122.0,,,09-02-2024 07:47:20,09-02-2024 07:47:20,0.166s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 122.0,,,09-02-2024 07:47:20,09-02-2024 07:47:56,35.897s,ERROR
+,,,,,,,
+Test Cases/TC_CURA/CURA_Logout/Logout,Firefox 122.0,,,09-02-2024 07:47:56,09-02-2024 07:49:18,1m - 21.796s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 122.0,,,09-02-2024 07:47:56,09-02-2024 07:48:34,37.553s,ERROR
+"callTestCase(findTestCase(""TC_CURA/CURA_History/History""), [""Hospital"":findTestData(""CURA_BookingAppointment/Dropdown_list"").getValue(1, 1), ""date"":findTestData(""CURA_BookingAppointment/Date_Booking"").getValue(1, 1), ... ], STOP_ON_FAILURE)",Firefox 122.0,,,09-02-2024 07:48:34,09-02-2024 07:49:10,35.774s,PASSED
+"click(findTestObject(""cura_healthcare_obj/Cura_Logout/Logout/i_CURA Healthcare_fa fa-bars""))",Firefox 122.0,,,09-02-2024 07:49:10,09-02-2024 07:49:10,0.701s,PASSED
+"click(findTestObject(""cura_healthcare_obj/Cura_Logout/Logout/a_Logout""))",Firefox 122.0,,,09-02-2024 07:49:10,09-02-2024 07:49:14,3.865s,PASSED
+"verifyCheckpoint(findCheckpoint(""Checkpoints/Checkpoints_Cura_Excel/Checkpoint_cura_all_ele""), true)",Firefox 122.0,,,09-02-2024 07:49:14,09-02-2024 07:49:14,0.154s,PASSED
+closeBrowser(),Firefox 122.0,,,09-02-2024 07:49:14,09-02-2024 07:49:18,3.329s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 122.0,,,09-02-2024 07:49:18,09-02-2024 07:49:18,0.130s,ERROR

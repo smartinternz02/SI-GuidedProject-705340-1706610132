@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_cura_TL,Firefox 122.0,,,09-02-2024 07:51:38,09-02-2024 07:53:04,1m - 25.668s,PASSED
+,,,,,,,
+Test Cases/TL_TC_CURA/TL_CURA_file,Firefox 122.0,,,09-02-2024 07:52:09,09-02-2024 07:53:04,54.827s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 122.0,,,09-02-2024 07:52:09,09-02-2024 07:52:14,4.534s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/TL_CURA_OBJ/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107""), ""Hongkong CURA Healthcare Center"", true)",Firefox 122.0,,,09-02-2024 07:52:14,09-02-2024 07:52:16,1.642s,PASSED
+"ky_droplist.dropdownvalue.CheckDropDownListElementExist(findTestObject(""TL_CURA_OBJ/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107""), ""Hongkong CURA Healthcare Center"")",Firefox 122.0,,,09-02-2024 07:52:16,09-02-2024 07:52:17,1.210s,PASSED
+"click(findTestObject(""Object Repository/TL_CURA_OBJ/Page_CURA Healthcare Service/input_hospital_readmission""))",Firefox 122.0,,,09-02-2024 07:52:17,09-02-2024 07:52:18,0.678s,PASSED
+"click(findTestObject(""Object Repository/TL_CURA_OBJ/Page_CURA Healthcare Service/label_Medicaid""))",Firefox 122.0,,,09-02-2024 07:52:18,09-02-2024 07:52:19,0.805s,PASSED
+"click(findTestObject(""Object Repository/TL_CURA_OBJ/Page_CURA Healthcare Service/input_visit_date""))",Firefox 122.0,,,09-02-2024 07:52:19,09-02-2024 07:52:20,1.198s,PASSED
+"click(findTestObject(""Object Repository/TL_CURA_OBJ/Page_CURA Healthcare Service/td_30""))",Firefox 122.0,,,09-02-2024 07:52:20,09-02-2024 07:52:21,0.936s,PASSED
+"setText(findTestObject(""Object Repository/TL_CURA_OBJ/Page_CURA Healthcare Service/textarea_comment""), ""fever"")",Firefox 122.0,,,09-02-2024 07:52:21,09-02-2024 07:52:22,1.168s,PASSED
+"click(findTestObject(""Object Repository/TL_CURA_OBJ/Page_CURA Healthcare Service/button_Book Appointment""))",Firefox 122.0,,,09-02-2024 07:52:22,09-02-2024 07:52:24,1.509s,PASSED
+"verifyCheckpoint(findCheckpoint(""Checkpoints/Checkpoints_Cura_Excel/Checkpoint_cura_all_ele""), false)",Firefox 122.0,,,09-02-2024 07:52:24,09-02-2024 07:52:26,2.196s,PASSED
+"click(findTestObject(""Object Repository/TL_CURA_OBJ/Page_CURA Healthcare Service/amenu-toggle""))",Firefox 122.0,,,09-02-2024 07:52:26,09-02-2024 07:52:26,0.597s,PASSED
+"click(findTestObject(""Object Repository/TL_CURA_OBJ/Page_CURA Healthcare Service/a_History""))",Firefox 122.0,,,09-02-2024 07:52:26,09-02-2024 07:52:27,0.922s,PASSED
+"verifyCheckpoint(findCheckpoint(""Checkpoints/Checkpoints_Cura_Excel/Checkpoint_cura_all_ele""), true)",Firefox 122.0,,,09-02-2024 07:52:27,09-02-2024 07:52:28,0.265s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 122.0,,,09-02-2024 07:52:28,09-02-2024 07:53:04,35.948s,ERROR

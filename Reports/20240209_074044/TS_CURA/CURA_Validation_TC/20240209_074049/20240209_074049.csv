@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+CURA_Validation_TC,Firefox 122.0,,,09-02-2024 07:41:28,09-02-2024 07:42:27,59.259s,PASSED
+,,,,,,,
+Test Cases/TC_CURA/CURA_Name_validation/CURA Heading validation,Firefox 122.0,,,09-02-2024 07:41:29,09-02-2024 07:42:27,58.661s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 122.0,,,09-02-2024 07:41:29,09-02-2024 07:41:30,1.286s,ERROR
+"openBrowser("""")",Firefox 122.0,,,09-02-2024 07:41:31,09-02-2024 07:41:44,13.600s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Firefox 122.0,,,09-02-2024 07:41:44,09-02-2024 07:41:49,5.280s,PASSED
+"verifyCheckpoint(findCheckpoint(""Checkpoints/Checkpoints_Cura_Excel/Checkpoint_cura_all_ele""), true)",Firefox 122.0,,,09-02-2024 07:41:50,09-02-2024 07:41:51,1.867s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 122.0,,,09-02-2024 07:41:51,09-02-2024 07:42:27,36.004s,ERROR
